@@ -176,8 +176,13 @@ article .btn {
     background: #f38213; }
   article .btn.btn:hover, article .btn.btn:focus {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) !important; }
-article .btn-holder {
-  text-align: center; }
+article .btn-holder { text-align: center;   }
+article .btn-holder .form-control { height: 64px; margin-bottom: 15px;  }
+article .btn-holder .btn {  margin-bottom: 15px; }
+article .btn-holder label.error { display: block; text-align: center; }
+      @media (max-width: 768px) {
+        article .btn-holder .btn {  display: block !important; width: 100% !important; max-width: 100% !important; } 
+      }
   article .btn-holder .green {
     display: block;
     text-align: center;
