@@ -2,7 +2,9 @@ $(document).ready(function(){
     
     $(".page-header").anystretch('img/top-header.jpg');
     $(".naturmort-1").anystretch('img/naturmort-1.jpg');
+    $(".naturmort-3").anystretch('img/naturmort-3.jpg');
     $(".expectations").anystretch('img/naturmort-2.jpg'); 
+    
 
    	$('form.signup-1').validate({
 	    rules: {

@@ -170,7 +170,7 @@ article h3 {
 article .btn {
   white-space: normal;
   font-family: 'OSB', Arial;
-  padding: 15px 25px;
+  padding: 15px 5px;
   font-size: 1.55em; }
   article .btn.btn-warning {
     background: #f38213; }
@@ -220,7 +220,7 @@ article.intro {
   article.intro .btn-holder {
     margin: 63px auto; }
     article.intro .btn-holder .btn {
-      padding: 14px 86px; }
+      padding: 14px 16px; }
       @media (max-width: 768px) {
         article.intro .btn-holder .btn {
           padding: 14px 26px; } }
@@ -269,6 +269,9 @@ article.how-it-works {
 /* Naturmort */
 article.naturmort-1 {
   background: url(../img/naturmort-1.jpg) no-repeat center #cccccc;
+  min-height: 373px; }
+article.naturmort-3 {
+  background: url(../img/naturmort-3.jpg) no-repeat center #cccccc;
   min-height: 373px; }
 
 /* Testimonials */
